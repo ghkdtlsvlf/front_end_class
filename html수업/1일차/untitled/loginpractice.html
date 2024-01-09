@@ -1,10 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>위니브</title>
+
+    <style>
+        .login_box {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            width: 350px;
+            height: 140px;
+            top: 30px;
+            left: 25px;
+            border: 1px #DBDBDB solid;
+            border-radius: 5px;
+
+
+        }
+
+        .longin_button {
+            width: 318px;
+            height: 40px;
+            top: 50px;
+            left: 16px;
+            background-color: #711BFF;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-left: 15px;
+            color: white;
+
+        }
+
+        .greeting {
+            width: 215px;
+            height: 15px;
+            top: 19px;
+            left: 16px;
+            font-size: 12px;
+            flex-grow: 1;
+            margin-left: 15px;
+            margin-top: 20px;
+
+        }
+
+        .finder {
+            width: 113px;
+            height: 15px;
+            top: 107px;
+            left: 36px;
+            font-size: 12px;
+            flex-grow: 1;
+            margin-left: 15px;
+
+        }
+
+        .sign_in {
+            width: 45px;
+            height: 15px;
+            top: 107px;
+            left: 289px;
+            font-size: 12px;
+            flex-grow: 1;
+            margin-left: 25px;
+            color: gray;
+        }
+
+        .lock_pic {
+            width: 16px;
+            height: 16px;
+            top: -58px;
+            left: 77px;
+            padding: 1.33px 2px 1.33px 2px;
+
+        }
+
+        .logo_pic {
+            width: 64px;
+            height: 18px;
+
+        }
+
+        .person_pic {
+            width: 16px;
+            height: 16px;
+            top: -58px;
+            left: 108px;
+            padding: 2px 2.67px 2px 2.67px;
+
+        }
+
+        a:link{
+            color: gray;
+        }
+        img{
+            vertical-align: bottom;
+        }
+    </style>
+
 </head>
 <body>
-$END$
+
+<form action="" class="login_box">
+    <div class="greeting"><strong> 더 편리해진 위니브에 오신것을 환영합니다. </strong></div>
+
+    <button class="longin_button">
+        <img class="logo_pic" src="weniv-logo.png" alt="위니브로고">
+        로그인
+    </button>
+
+
+    <div class="finder">
+        <img class="lock_pic" src="icon-lock.png" alt="자물쇠">
+        <a href="www.login.com">아이디</a> |
+        <a href="www.pw.com">비밀번호 찾기</a>
+    </div>
+
+    <div class="sign_in">
+        <img class="person_pic" src="icon-user.png" alt="사람" >
+        <a href="www.signin.com" >회원가입</a>
+
+    </div>
+
+
+</form>
+
+
 </body>
 </html>

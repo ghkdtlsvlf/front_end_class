@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b8090e-4da0-499e-a6b6-837dce564ade" name="Changes" comment="" />
+    <list default="true" id="62b8090e-4da0-499e-a6b6-837dce564ade" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/flestest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon-lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon-user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginpractice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stly.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weniv-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +29,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -24,27 +39,31 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2aTFkG6A8McIyzhET1okjfWiKRu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/USER/Desktop/estsoft/프론트앤드/html수업/1일차/untitled",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/estsoft/프론트앤드/html수업/1일차/untitled&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\Desktop\estsoft\프론트앤드\html수업\1일차\untitled" />
@@ -76,7 +95,10 @@
       <option name="presentableId" value="Default" />
       <updated>1704334804669</updated>
       <workItem from="1704334805917" duration="9431000" />
-      <workItem from="1704414090345" duration="19453000" />
+      <workItem from="1704414090345" duration="20214000" />
+      <workItem from="1704672188089" duration="5241000" />
+      <workItem from="1704759254780" duration="12314000" />
+      <workItem from="1704781676201" duration="6380000" />
     </task>
     <servers />
   </component>
