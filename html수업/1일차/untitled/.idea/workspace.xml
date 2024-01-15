@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62b8090e-4da0-499e-a6b6-837dce564ade" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/flestest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon-lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon-user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginpractice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/position.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stly.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weniv-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../자바스크립트/JavaScript/Frame 12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../자바스크립트/JavaScript/Frame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../자바스크립트/JavaScript/arraytest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../자바스크립트/JavaScript/day1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../자바스크립트/JavaScript/doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../자바스크립트/JavaScript/milionHours.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../자바스크립트/JavaScript/milionHours.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../자바스크립트/JavaScript/score.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../자바스크립트/JavaScript/switchtest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +98,8 @@
       <workItem from="1704672188089" duration="5241000" />
       <workItem from="1704759254780" duration="12314000" />
       <workItem from="1704781676201" duration="6380000" />
+      <workItem from="1704845595177" duration="718000" />
+      <workItem from="1705043883714" duration="1736000" />
     </task>
     <servers />
   </component>
