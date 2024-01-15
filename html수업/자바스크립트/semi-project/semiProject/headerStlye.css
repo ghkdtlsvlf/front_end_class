@@ -1,0 +1,115 @@
+/*전체 정렬용 클래스*/
+
+/*background 안에 모든 것이 정렬*/
+.headerBackground {
+    width: 1920px;
+    height: 900px;
+    top: 2px;
+    background-color: #F2E9D8;
+
+}
+
+/*메인 로고*/
+.hoduLogo {
+    width: 130px;
+    height: 40px;
+    top: 31px;
+    left: 320px;
+    position: absolute;
+}
+
+/*네비게이터*/
+.headerNavigateBar {
+    width: 1920px;
+    height: 102px;
+    top: 2px;
+
+}
+/*네비게이터 요소 공통사항*/
+.headerTopNavElement {
+    display: flex;
+
+    width: 205px;
+    height: 20px;
+    top: 41px;
+    left: 1206px;
+    gap: 30px;
+    position: absolute;
+
+}
+/*네비게이터 폰트 공통 사항*/
+.headerSearch {
+    /*font-family: Pretendard;*/
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/*다운로드 버튼 */
+.headerDownloadBtn {
+    width: 140px;
+    height: 50px;
+    top: 26px;
+    left: 1460px;
+    border-radius: 40px;
+    border-style: none;
+    position: absolute;
+    background-color: coral;
+}
+/*버튼 텍스트*/
+.headerBtnText{
+
+    width: 76px;
+    height: 20px;
+    top: 41px;
+    left: 1491px;
+    /*font-family: Pretendard;*/
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+/*메인 문구*/
+.headerStrongText{
+    position: absolute;
+    width: 695px;
+    height: 120px;
+    top: 304px;
+    left: 320px;
+
+    /*font-family: Pretendard;*/
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+
+}
+
+
+/*기본 문구*/
+.headerNormalText{
+    position: absolute;
+
+    width: 420px;
+    height: 86px;
+    top: 464px;
+    left: 320px;
+
+    /*font-family: Pretendard;*/
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+
+}
+
