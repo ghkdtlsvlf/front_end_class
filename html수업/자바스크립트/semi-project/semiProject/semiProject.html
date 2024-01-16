@@ -16,7 +16,7 @@
     <!--    배이지 박스를 만들고 박스 위에 배치 -->
     <div class="headerBackground">
         <!--가장 위의 네비게이터-->
-        <div class="headerNavigateBar">
+        <nav class="headerNavigateBar">
 
             <img class="hoduLogo" src="../hodu_img/hodu_logo.png">
             <div class="headerTopNavElement">
@@ -29,28 +29,73 @@
                 <span class="headerBtnText">Download</span>
             </button>
 
-        </div>
+        </nav>
         <!--글 및 그림 -->
-        <strong class="headerStrongText">Lorem Ipsum is simply
-            dummy text of the printing </strong>
+        <span class="headerStrongText">Lorem Ipsum is simply
+            dummy text of the printing and</span>
 
         <span class="headerNormalText">Lorem Ipsum is simply dummy text of the printing and
 typesetting industry.
 Lorem Ipsum has been the industry's standard dummy text
 ever since the 1500s, when an unknown</span>
 
+        <button class="headerDownloadBtn2">
+            <span class="headerBtnText">Download</span>
+        </button>
+
+        <img class='headerHoduBoxImg' src="../hodu_img/header_box_cat.png" alt="">
+
+
     </div>
 
 </header>
 
+
 <main>
 
     <!--대표 그림 텍스트-->
+    <div>
+        <img class="mainHoduLyingImg" src="../hodu_img/main_cat_lying.png">
+
+        <strong class="mainStrongText">Lorem Ipsum is simply
+            dummy text of the printing and dummy text</strong>
+
+        <span class="mainNormalText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span>
+
+    </div>
 
     <!--대표 텍스트    -->
+    <div>
+        <span class="mainSubTitle">dummy text of the printing and dummy</span>
+
+        <span class="mainFollowedSubTitle">Lorem Ipsum is simply <span class="mainSpoqaHan">dummy text</span> of the printing and typesetting industry.<br>
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</span>
+    </div>
+
 
     <!--    무한스크롤-->
+    <div class="mainInfiniteScrollContainer">
+        <img src="../hodu_img/main_cat_back.png">
+        <img src="../hodu_img/main_cat_face1.png">
+        <img src="../hodu_img/main_cat_on_tower.png">
 
+        <img src="../hodu_img/main_cat_back.png">
+        <img src="../hodu_img/main_cat_face1.png">
+        <img src="../hodu_img/main_cat_on_tower.png">
+
+
+    </div>
+
+    <div class="mainShowmoreHodu">
+        <span class="mainShowmoreHoduShowText">Continue exploring HODU</span>
+
+        <button class="mainShowmoreHoduShowBtn">
+            <span class = 'mainShowmoreHoduShowBtnText'>Show more</span>
+        </button>
+    </div>
+
+    <div class="mainDistinguishLine"> </div>
+    <div class="mainMapIntroduction">Where you’ll be</div>
 
 </main>
 
@@ -69,6 +114,7 @@ ever since the 1500s, when an unknown</span>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=bba7ea723624eaed1ca36f09738409c8"></script>
 
 <script src="kakaomap.js"></script>
+<script src="mainLogic.js"></script>
 
 </body>
 </html>

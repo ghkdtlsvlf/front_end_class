@@ -1,5 +1,3 @@
-/*전체 정렬용 클래스*/
-
 /*background 안에 모든 것이 정렬*/
 .headerBackground {
     width: 1920px;
@@ -25,6 +23,7 @@
     top: 2px;
 
 }
+
 /*네비게이터 요소 공통사항*/
 .headerTopNavElement {
     display: flex;
@@ -37,6 +36,7 @@
     position: absolute;
 
 }
+
 /*네비게이터 폰트 공통 사항*/
 .headerSearch {
     /*font-family: Pretendard;*/
@@ -59,8 +59,20 @@
     position: absolute;
     background-color: coral;
 }
+
+.headerDownloadBtn2 {
+    width: 140px;
+    height: 50px;
+    top: 590px;
+    left: 320px;
+    border-radius: 40px;
+    border-style: none;
+    position: absolute;
+    background-color: coral;
+}
+
 /*버튼 텍스트*/
-.headerBtnText{
+.headerBtnText {
 
     width: 76px;
     height: 20px;
@@ -76,9 +88,9 @@
 }
 
 /*메인 문구*/
-.headerStrongText{
+.headerStrongText {
     position: absolute;
-    width: 695px;
+    width: 795px;
     height: 120px;
     top: 304px;
     left: 320px;
@@ -95,7 +107,7 @@
 
 
 /*기본 문구*/
-.headerNormalText{
+.headerNormalText {
     position: absolute;
 
     width: 420px;
@@ -113,3 +125,13 @@
 
 }
 
+/*호두 박스 이미지 */
+
+.headerHoduBoxImg {
+    position: absolute;
+    width: 415px;
+    height: 766px;
+    top: 136px;
+    left: 1185px;
+
+}
