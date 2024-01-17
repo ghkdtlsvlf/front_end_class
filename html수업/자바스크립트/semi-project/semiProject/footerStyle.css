@@ -1,0 +1,207 @@
+.footerMove{
+    position:absolute;
+    height: 378px;
+
+}
+
+.footerMapIntroduction{
+    position: absolute;
+    width: 280px;
+    height: 45px;
+    top: 2985px;
+    left: 320px;
+    /*font-family: Pretendard;*/
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.footerMapLocation{
+    position: absolute;
+    width: 395px;
+    height: 20px;
+    top: 3050px;
+    left: 320px;
+
+    /*font-family: Pretendard;*/
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footerMapDisplay{
+    position: absolute;
+    width: 1278px;
+    height: 520px;
+    top: 3118px;
+    left: 320px;
+    border-radius: 12px;
+
+}
+
+.footerSubBox {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1280px;
+    height: 200px;
+    top: 3718px;
+    left: 320px;
+    border-radius: 30px;
+
+    background-color: #263140;
+
+}
+
+.footerMessageBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 490px;
+    height: 99px;
+    margin-top: 51px;
+    margin-left: 58px;
+
+}
+
+.footerSubMessage {
+    /*font-family: Pretendard;*/
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+
+.footerSubMessageExplain {
+
+    /*font-family: Pretendard;*/
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2E9D8;
+
+
+}
+
+.footerEmailBox {
+    display: flex;
+    flex-direction: row;
+
+    width: 530px;
+    height: 60px;
+    margin-top: 70px;
+    margin-left: 150px;
+    border-radius: 60px;
+    background-color: #F2E9D8;
+
+}
+
+.mailImg {
+    width: 24px;
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 25px;
+    vertical-align: bottom;
+
+}
+
+.footermailInputText {
+    width: 184px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    /*font-family: Pretendard;*/
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-style: none;
+
+}
+
+.footerSubBtn {
+    width: 135px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 5px;
+    border-radius: 40px;
+    gap: 10px;
+    background-color: #D97652;
+    border-style: none;
+}
+
+.footerBtnText {
+    /*font-family: Pretendard;*/
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+
+}
+
+.footerHoduImg{
+    position: absolute;
+    background-image: url("../hodu_img/footer_cat_lookup.png");
+    background-size: 1920px 500px;
+    width: 1920px;
+    height: 340px;
+    top: 3819px;
+    z-index: -1;
+
+}
+
+
+.footerNaviBar{
+    position: absolute;
+    width: 1920px;
+    height: 160px;
+    top: 4159px;
+    padding: 45px 320px 45px 320px;
+
+
+}
+
+.footerHoduLogo{
+
+    width: 226px;
+    height: 70px;
+    margin-top: 45px;
+
+}
+
+.footerSnsBar{
+    position: absolute;
+    display: flex;
+    gap: 25px;
+    width: 228px;
+    height: 42px;
+    top: 100px;
+    left: 1372px;
+
+
+}
+
+.footerSnsBtn{
+
+    width: 50px;
+    height: 42px;
+    background-color:#F29D52;
+    border-style: none;
+    border-radius: 50%;
+
+}

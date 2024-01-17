@@ -42,35 +42,59 @@ function makeImageList(datas) {
 //조건에 따라서 무한스크롤 재생
 // 1번에는 showmore부터 눌러야함
 
-let showmoreFlag = false;
 const showmoreButton = document.querySelector("main > div.mainShowmoreHodu > button");
-const showmoreText = document.querySelector("main> div.mainShowmoreHodu> span.mainShowmoreHoduShowText");
+// const showmoreText = document.querySelector("main> div.mainShowmoreHodu> span.mainShowmoreHoduShowText");
 
-showmoreButton.addEventListener("click", ()=> {
-    if(!showmoreFlag) {
-        fetchImages(pageToFetch++);
-        showmoreFlag = true;
-        showmoreButton.remove();
-        showmoreText.remove();
-    }
+showmoreButton.addEventListener("click", () => {
 
-})
+    var elementsWithClass = document.querySelectorAll("footer>div");
 
-// show more 1번 누른 이후
-const imageObserve = document.querySelectorAll('.mainInfiniteScrollContainer');
-const observer = new IntersectionObserver((items)=>{
+    // 가져온 요소들의 height 속성 변경
+    elementsWithClass.forEach(function (element) {
+        var currentHeight = parseInt(window.getComputedStyle(element).height, 10);
 
-    items.forEach(images =>{
-        if(images.intersectionRatio>= 0 && showmoreFlag ){
-            fetchImages(pageToFetch++);
-        }
+        element.style.height = (currentHeight + 375) + "px";
 
-    })
+    });
+    // footerMove("footer");
+    fetchImages(pageToFetch++);
+//     여기 이후에 창 전체를 아래로 밀어야함
+
+
 
 })
-imageObserve.forEach(el=>{
-    observer.observe(el);
-})
+
+
+
+function footerMove(Movefooter) {
+    // 클래스를 가진 요소들을 선택
+    var elementsWithClass = document.querySelectorAll("footer");
+
+    // 가져온 요소들의 height 속성 변경
+    elementsWithClass.forEach(function (element) {
+        var currentHeight = parseInt(window.getComputedStyle(element).height, 10);
+        element.style.height = (currentHeight + 375) + "px";
+    });
+}
+
+
+
+//
+// // show more 1번 누른 이후
+// const imageObserve = document.querySelectorAll('.mainInfiniteScrollContainer');
+// const observer = new IntersectionObserver((items)=>{
+//
+//     items.forEach(images =>{
+//         if(images.intersectionRatio>= 0 && showmoreFlag ){
+//             fetchImages(pageToFetch++);
+//         }
+//
+//     })
+//
+// })
+// imageObserve.forEach(el=>{
+//     observer.observe(el);
+// })
 
 
 // window.addEventListener("scroll", () => {
@@ -83,3 +107,6 @@ imageObserve.forEach(el=>{
 //
 //     }
 // })
+
+
+// 구독 버튼 누르면 모달창 나오게
