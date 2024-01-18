@@ -46,19 +46,25 @@ const showmoreButton = document.querySelector("main > div.mainShowmoreHodu > but
 // const showmoreText = document.querySelector("main> div.mainShowmoreHodu> span.mainShowmoreHoduShowText");
 
 showmoreButton.addEventListener("click", () => {
+    //     여기 이후에 창 전체를 아래로 밀어야함
+    var footerChildren = document.querySelector("footer").children;
 
-    var elementsWithClass = document.querySelectorAll("footer>div");
-
-    // 가져온 요소들의 height 속성 변경
-    elementsWithClass.forEach(function (element) {
-        var currentHeight = parseInt(window.getComputedStyle(element).height, 10);
-
-        element.style.height = (currentHeight + 375) + "px";
-
+    Array.from(footerChildren).forEach(function (element) {
+        var currentTranslateY = parseInt(element.style.transform.replace(/[^0-9\-.,]/g, ''), 10) || 0;
+        element.style.transform = "translateY(" + (currentTranslateY + 450) + "px)";
     });
-    // footerMove("footer");
+
+    var showMoreHoduChild = document.querySelector("main>div.mainShowmoreHodu").children;
+
+    Array.from(showMoreHoduChild).forEach(function (element) {
+        var currentTranslateY = parseInt(element.style.transform.replace(/[^0-9\-.,]/g, ''), 10) || 0;
+        element.style.transform = "translateY(" + (currentTranslateY + 450) + "px)";
+    });
+
+    window.scrollBy({ top: 450, behavior: 'smooth' });
+
     fetchImages(pageToFetch++);
-//     여기 이후에 창 전체를 아래로 밀어야함
+
 
 
 
@@ -66,17 +72,35 @@ showmoreButton.addEventListener("click", () => {
 
 
 
-function footerMove(Movefooter) {
-    // 클래스를 가진 요소들을 선택
-    var elementsWithClass = document.querySelectorAll("footer");
+// 호버기능 있는 버튼
+const upperBtn = document.querySelector("main>div>button.mainUpperBtn");
 
-    // 가져온 요소들의 height 속성 변경
-    elementsWithClass.forEach(function (element) {
-        var currentHeight = parseInt(window.getComputedStyle(element).height, 10);
-        element.style.height = (currentHeight + 375) + "px";
-    });
-}
+upperBtn.addEventListener("click",()=>{
 
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+
+})
+
+const subBtn = document.getElementById("Subscribe");
+const modalWindow = document.querySelector("section>div.modal");
+const closeBtn = document.getElementById("CloseModal")
+subBtn.addEventListener("click", () => {
+    console.log("눌림");
+    modalWindow.style.display = "block";
+});
+
+closeBtn.addEventListener("click",()=>{
+    modalWindow.style.display = "none";
+})
+
+//밖에누르면 꺼지도록
+
+window.addEventListener("click", (event) => {
+    if (event.target === modalWindow) {
+        modalWindow.style.display = "none";
+    }
+});
 
 
 //

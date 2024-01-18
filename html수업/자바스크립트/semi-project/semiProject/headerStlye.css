@@ -58,6 +58,13 @@
     border-style: none;
     position: absolute;
     background-color: coral;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
 }
 
 .headerDownloadBtn2 {
@@ -69,16 +76,7 @@
     border-style: none;
     position: absolute;
     background-color: coral;
-}
 
-/*버튼 텍스트*/
-.headerBtnText {
-
-    width: 76px;
-    height: 20px;
-    top: 41px;
-    left: 1491px;
-    /*font-family: Pretendard;*/
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -86,6 +84,9 @@
     text-align: center;
     color: white;
 }
+
+/*버튼 텍스트*/
+
 
 /*메인 문구*/
 .headerStrongText {

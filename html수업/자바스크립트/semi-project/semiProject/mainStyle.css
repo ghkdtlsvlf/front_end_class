@@ -151,12 +151,7 @@
     border-radius: 40px;
     border-style: none;
     background-color: coral;
-}
 
-.mainShowmoreHoduShowBtnText{
-    width: 85px;
-    height: 20px;
-    /*font-family: Pretendard;*/
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -165,27 +160,29 @@
     color: white;
 }
 
-.mainDistinguishLine{
-    position: absolute;
-    width: 1278px;
-    height: 1px;
-    top: 2916px;
-    left: 320px;
-    background-color: rosybrown;
+
+
+
+
+/*위로 올리는 버튼*/
+
+.mainUpperBtn{
+    position: fixed;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    border-style: none;
+    border-radius: 50%;
+    background-color: black;
+    background-image: url("../hodu_img/up_arrow_gray.png");
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
-.mainMapIntroduction{
-    position: absolute;
-    width: 280px;
-    height: 45px;
-    top: 2985px;
-    left: 320px;
-    /*font-family: Pretendard;*/
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 45px;
-    letter-spacing: 0em;
-    text-align: left;
-
-
+.mainUpperBtn:hover {
+    background-image: url("../hodu_img/up_arrow_bold.png");
+    background-repeat: no-repeat;
+    background-position: center center;
 }

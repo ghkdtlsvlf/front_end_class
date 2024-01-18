@@ -26,7 +26,7 @@
             </div>
 
             <button class="headerDownloadBtn">
-                <span class="headerBtnText">Download</span>
+                Download
             </button>
 
         </nav>
@@ -35,12 +35,12 @@
             dummy text of the printing and</span>
 
         <span class="headerNormalText">Lorem Ipsum is simply dummy text of the printing and
-typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text
-ever since the 1500s, when an unknown</span>
+                typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown</span>
 
         <button class="headerDownloadBtn2">
-            <span class="headerBtnText">Download</span>
+            Download
         </button>
 
         <img class='headerHoduBoxImg' src="../hodu_img/header_box_cat.png" alt="">
@@ -90,22 +90,28 @@ ever since the 1500s, when an unknown</span>
         <span class="mainShowmoreHoduShowText">Continue exploring HODU</span>
 
         <button class="mainShowmoreHoduShowBtn">
-            <span class='mainShowmoreHoduShowBtnText'>Show more</span>
+            Show more
         </button>
     </div>
 
+    <div>
+        <button class="mainUpperBtn">
+            <!--        위로 올라가는 버튼 -->
+        </button>
 
-
+    </div>
 
 </main>
 
 
 <footer>
-    <div class="mainDistinguishLine"></div>
+
+
+    <div class="footerDistinguishLine"></div>
     <div class="footerMapIntroduction">Where you’ll be</div>
     <div class="footerMapLocation">330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</div>
     <!-- 지도를 표시할 div 입니다 -->
-    <div class="footerMapDisplay" id="map" style="width:100%;height:350px;"></div>
+    <div class="footerMapDisplay" id="map"></div>
 
     <!--    구독 및 모달 창-->
     <div class="footerSubBox">
@@ -119,9 +125,7 @@ Lorem Ipsum has been the industry's standard dummy text </span>
             <img class="mailImg" src="../hodu_img/mail.png">
             <input class="footermailInputText" type="email" required placeholder="Enter your e-mail address">
 
-            <button class="footerSubBtn">
-                <span class="footerBtnText">Subscribe</span>
-            </button>
+            <button class="footerSubBtn" id="Subscribe">Subscribe</button>
 
         </div>
 
@@ -134,19 +138,18 @@ Lorem Ipsum has been the industry's standard dummy text </span>
 
         <div class="footerSnsBar">
             <a class="footerSnsBtn" href="https://www.naver.com">
-            <img src="../hodu_img/icon-blog.png" alt ="">
+                <img src="../hodu_img/icon-blog.png" alt="">
             </a>
             <a class="footerSnsBtn" href="https://www.instagram.com/">
                 <img src="../hodu_img/icon-insta.png">
             </a>
             <a class="footerSnsBtn" href="https://www.facebook.com/">
-                <img  src="../hodu_img/icon-facebook.png" alt ="">
+                <img src="../hodu_img/icon-facebook.png" alt="">
             </a>
 
             <a class="footerSnsBtn" href="https://www.youtube.com/">
-                <img src="../hodu_img/icon-youtube.png" alt ="">
+                <img src="../hodu_img/icon-youtube.png" alt="">
             </a>
-
 
 
         </div>
@@ -155,6 +158,16 @@ Lorem Ipsum has been the industry's standard dummy text </span>
 
 </footer>
 
+<section>
+    <div class="modal">
+        <div class="footerModalWindow">
+            <img class="ModalImg" src="../hodu_img/hoduFace.png">
+            <span class="ModalMainText">Thank You!</span>
+            <span class="ModalSubText">Lorem Ipsum is simply dummy text of the printing industry. </span>
+            <button class="ModalBtn" id="CloseModal">OK! I Love HODU</button>
+        </div>
+    </div>
+</section>
 
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=bba7ea723624eaed1ca36f09738409c8"></script>
 
