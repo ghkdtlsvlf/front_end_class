@@ -1,6 +1,7 @@
 //무한 스크롤이랑 모든 이미지에 쉐도우 적용
 
 //쉐도우 적용/ 무한스크롤에 있는 이미지만 적용
+
 const allImageShadow = document.querySelectorAll("main > div.mainInfiniteScrollContainer > img")
 
 allImageShadow.forEach((InfiniteImage) => {
@@ -38,9 +39,6 @@ function makeImageList(datas) {
     })
 
 }
-
-//조건에 따라서 무한스크롤 재생
-// 1번에는 showmore부터 눌러야함
 
 const showmoreButton = document.querySelector("main > div.mainShowmoreHodu > button");
 // const showmoreText = document.querySelector("main> div.mainShowmoreHodu> span.mainShowmoreHoduShowText");
